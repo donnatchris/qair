@@ -1,0 +1,52 @@
+# Environnements virtuels Python
+.venv/
+.venv-*/
+venv/
+env/
+
+# Cache et fichiers générés par Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Configuration locale et secrets
+.env
+.env.*
+!.env.example
+
+# Poids et exports de modèles de machine learning
+*.pt
+*.pth
+*.onnx
+*.engine
+weights/
+
+# Données vidéo locales
+videos/*
+!videos/.gitkeep
+
+# Résultats générés par YOLO et le script de détection
+run/
+runs/
+frame_*_original.jpg
+image_*.png
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Éditeurs et systèmes d'exploitation
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
